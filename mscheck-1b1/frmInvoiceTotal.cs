@@ -66,7 +66,15 @@ namespace mscheck_1b1
         {
             //txtTotal.Text = "10";
             //txtTotal.ReadOnly = false;
-            
+
+            txtDiscountAmount.Text = 
+                (Convert.ToDecimal(txtSubtotal.Text) 
+                * Convert.ToDecimal(txtDiscountPercent.Text)/ 100).ToString("0.00");
+            txtTotal.Text =
+                (Convert.ToDecimal(txtSubtotal.Text) 
+                - Convert.ToDecimal(txtDiscountAmount.Text)).ToString("0.00");
+   
+               
         }
 
         private void btnexit_Click(object sender, EventArgs e)
