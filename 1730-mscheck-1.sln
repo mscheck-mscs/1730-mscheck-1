@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck1d1", "mscheck1d1\ms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck1e1", "mscheck1e1\mscheck1e1.csproj", "{BC72B87C-659B-4A4F-BC9A-928F4BA6F04A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck-1d", "mscheck-1d\mscheck-1d.csproj", "{8765E4B0-2E81-40C2-9A3A-04842BDC8E98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BC72B87C-659B-4A4F-BC9A-928F4BA6F04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC72B87C-659B-4A4F-BC9A-928F4BA6F04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC72B87C-659B-4A4F-BC9A-928F4BA6F04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8765E4B0-2E81-40C2-9A3A-04842BDC8E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8765E4B0-2E81-40C2-9A3A-04842BDC8E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8765E4B0-2E81-40C2-9A3A-04842BDC8E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8765E4B0-2E81-40C2-9A3A-04842BDC8E98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
