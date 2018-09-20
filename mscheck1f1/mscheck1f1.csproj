@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC72B87C-659B-4A4F-BC9A-928F4BA6F04A}</ProjectGuid>
+    <ProjectGuid>{9245EC3F-D333-4F4D-A82A-7F276DC88302}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>mscheck1e1</RootNamespace>
-    <AssemblyName>mscheck1e1</AssemblyName>
+    <RootNamespace>mscheck1f1</RootNamespace>
+    <AssemblyName>mscheck1f1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AverageCalculater.cs">
+    <Compile Include="FrmCurrency.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AverageCalculater.Designer.cs">
-      <DependentUpon>AverageCalculater.cs</DependentUpon>
+    <Compile Include="FrmCurrency.Designer.cs">
+      <DependentUpon>FrmCurrency.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AverageCalculater.resx">
-      <DependentUpon>AverageCalculater.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCurrency.resx">
+      <DependentUpon>FrmCurrency.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,7 +80,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Content Include="flags\Australia-Flag-icon.png" />
+    <Content Include="flags\Australia-Flag-icon_dim.png" />
+    <Content Include="flags\Bhutan-Flag-icon.png" />
+    <Content Include="flags\Bhutan-Flag-icon_dim.png" />
+    <Content Include="flags\Canada-Flag-icon.png" />
+    <Content Include="flags\Canada-Flag-icon_dim.png" />
+    <Content Include="flags\Japan-Flag-icon.png" />
+    <Content Include="flags\Japan-Flag-icon_dim.png" />
+    <Content Include="flags\Jarvis-Island-Flag-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

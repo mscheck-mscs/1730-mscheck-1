@@ -12,7 +12,7 @@ namespace mscheck_1d
 {
     public partial class Form1 : Form
     {
-         public Form1()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -33,7 +33,8 @@ namespace mscheck_1d
         {
             txtUSDAus.Text = (
               Convert.ToDecimal(txtAmountAus.Text) * Convert.ToDecimal(txtRateAus.Text)
-              ).ToString("0.00"); }
+              ).ToString("0.00");
+        }
 
         private void txtAmountBhu_TextChanged(object sender, EventArgs e)
         {
@@ -81,10 +82,10 @@ namespace mscheck_1d
         private void txtTotal_TextChanged(object sender, EventArgs e)
         {
             txtTotal.Text = (
-            Convert.ToDecimal(txtUSDAus.Text) + Convert.ToDecimal(txtUSDBhu.Text) + Convert.ToDecimal(txtUSDCanada.Text)
-            + Convert.ToDecimal(txtUSDJapan.Text)
+               (Convert.ToDecimal(txtUSDAus.Text)) + (Convert.ToDecimal(txtUSDJapan.Text)) +
+               (Convert.ToDecimal(txtUSDCanada.Text)) + (Convert.ToDecimal(txtUSDBhu.Text))
+               ).ToString("0.00");
 
-            ).ToString("0.00");
         }
         private void buttonReset_Click(object sender, EventArgs e)
         {
@@ -102,5 +103,16 @@ namespace mscheck_1d
         {
             Close();
 
-        } 
-   
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTotal_KeyUp(object sender, KeyEventArgs e)
+        {
+          
+        }
+    }
+}

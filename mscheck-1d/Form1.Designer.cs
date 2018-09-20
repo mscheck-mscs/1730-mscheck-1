@@ -33,7 +33,6 @@
             this.buttonReset = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtTotal = new System.Windows.Forms.TextBox();
             this.txtUSDJapan = new System.Windows.Forms.TextBox();
             this.txtUSDCanada = new System.Windows.Forms.TextBox();
             this.txtUSDBhu = new System.Windows.Forms.TextBox();
@@ -58,6 +57,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -104,17 +104,6 @@
             this.label8.Size = new System.Drawing.Size(24, 25);
             this.label8.TabIndex = 51;
             this.label8.Text = "+";
-            // 
-            // txtTotal
-            // 
-            this.txtTotal.Location = new System.Drawing.Point(975, 303);
-            this.txtTotal.Name = "txtTotal";
-            this.txtTotal.ReadOnly = true;
-            this.txtTotal.Size = new System.Drawing.Size(169, 22);
-            this.txtTotal.TabIndex = 52;
-            this.txtTotal.TabStop = false;
-            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // txtUSDJapan
             // 
@@ -354,16 +343,27 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
+            // txtTotal
+            // 
+            this.txtTotal.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtTotal.Location = new System.Drawing.Point(993, 305);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
+            this.txtTotal.Size = new System.Drawing.Size(150, 22);
+            this.txtTotal.TabIndex = 52;
+            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 450);
+            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtUSDJapan);
             this.Controls.Add(this.txtUSDCanada);
             this.Controls.Add(this.txtUSDBhu);
@@ -390,6 +390,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -406,7 +407,6 @@
         private System.Windows.Forms.Button buttonReset;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.TextBox txtUSDJapan;
         private System.Windows.Forms.TextBox txtUSDCanada;
         private System.Windows.Forms.TextBox txtUSDBhu;
@@ -431,6 +431,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtTotal;
     }
 }
 
