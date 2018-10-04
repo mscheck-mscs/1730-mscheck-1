@@ -24,21 +24,40 @@ namespace mischeck1C1
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            txtBotxtHotDogSubTotal.Text = (
-                4.0m * Convert.ToDecimal(txtHotDogs.Text)
-                ).ToString("0.00");
-            txtHamburgersSubTotal.Text = (
-                5.0m * Convert.ToDecimal(txtHamburgers.Text)
-                ).ToString("0.00");
-            txtBoxPretaxtotal.Text = (
-              Convert.ToDecimal(txtBotxtHotDogSubTotal.Text) + Convert.ToDecimal(txtHamburgersSubTotal.Text)
-              ).ToString("0.00");
-           txtBoxTax.Text = (
-               0.06875m * Convert.ToDecimal(txtBoxPretaxtotal.Text)
-               ).ToString("0.00");
-            txtBoxTotal.Text = (
-                Convert.ToDecimal(txtBoxPretaxtotal.Text) + Convert.ToDecimal(txtBoxTax.Text)
-                ).ToString("0.00");
+            //txtBotxtHotDogSubTotal.Text = (
+            //    4.0m * Convert.ToDecimal(txtHotDogs.Text)
+            //    ).ToString("0.00");
+            int HotDogs = Convert.ToInt32(txtHotDogs.Text);
+            decimal HotDogsPrice = 5.0m;
+            decimal HotdogsSubtotal = HotDogs * HotDogsPrice;
+            txtBotxtHotDogSubTotal.Text = HotdogsSubtotal.ToString("0.00");
+
+            // txtHamburgersSubTotal.Text = (
+            //   5.0m * Convert.ToDecimal(txtHamburgers.Text)
+            //   ).ToString("0.00");
+
+            int hamburgers = Convert.ToInt32(txtHamburgers.Text);
+            decimal hamburgerPrice = 5.0m;
+            decimal hamburgerSubtotal = hamburgers * hamburgerPrice;
+            txtHamburgersSubTotal.Text = hamburgerSubtotal.ToString("0.00");
+
+            //txtBoxPretaxtotal.Text = (
+            //  Convert.ToDecimal(txtBotxtHotDogSubTotal.Text) + Convert.ToDecimal(txtHamburgersSubTotal.Text)
+            //  ).ToString("0.00");
+            decimal pretaxTotal = HotdogsSubtotal + hamburgerSubtotal;
+            txtBoxPretaxtotal.Text = pretaxTotal.ToString("0.00");
+
+            //txtBoxTax.Text = (
+            //    0.06875m * Convert.ToDecimal(txtBoxPretaxtotal.Text)
+            //    ).ToString("0.00");
+            decimal Tax = 6.875m * pretaxTotal/ 100;
+            txtBoxTax.Text = Tax.ToString("0.00");
+
+            //txtBoxTotal.Text = (
+            //    Convert.ToDecimal(txtBoxPretaxtotal.Text) + Convert.ToDecimal(txtBoxTax.Text)
+            //    ).ToString("0.00");
+            decimal Total = pretaxTotal + Tax;
+            txtBoxTotal.Text = Total.ToString("0.00");
 
             btnClear.Focus();
 
