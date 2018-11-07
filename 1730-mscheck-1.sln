@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2B1.2", "mscheck2B1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2c1-", "mscheck2c1-\mscheck2c1-.csproj", "{6B2767AB-A925-4DD8-9A5B-D742F3A7C87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2E1", "mscheck2E1\mscheck2E1.csproj", "{1F04A806-080E-4504-8C95-7312B8B8592B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2E1UnitTests", "mscheck2E1UnitTests\mscheck2E1UnitTests.csproj", "{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{6B2767AB-A925-4DD8-9A5B-D742F3A7C87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2767AB-A925-4DD8-9A5B-D742F3A7C87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2767AB-A925-4DD8-9A5B-D742F3A7C87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F04A806-080E-4504-8C95-7312B8B8592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04A806-080E-4504-8C95-7312B8B8592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F04A806-080E-4504-8C95-7312B8B8592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F04A806-080E-4504-8C95-7312B8B8592B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
