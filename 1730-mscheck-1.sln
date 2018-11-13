@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2E1", "mscheck2E1\ms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2E1UnitTests", "mscheck2E1UnitTests\mscheck2E1UnitTests.csproj", "{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2F1", "WindowsFormsApp2\mscheck2F1.csproj", "{78F0D7F8-B07B-472E-9BF0-276DF057ABDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck2F1UnitTest", "mscheck2F1UnitTest\mscheck2F1UnitTest.csproj", "{4FCDDFE2-987B-4BDE-8025-0379017C80BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF9351C-D646-4BC1-8E2F-F6C320029BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F0D7F8-B07B-472E-9BF0-276DF057ABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F0D7F8-B07B-472E-9BF0-276DF057ABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F0D7F8-B07B-472E-9BF0-276DF057ABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F0D7F8-B07B-472E-9BF0-276DF057ABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCDDFE2-987B-4BDE-8025-0379017C80BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCDDFE2-987B-4BDE-8025-0379017C80BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCDDFE2-987B-4BDE-8025-0379017C80BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCDDFE2-987B-4BDE-8025-0379017C80BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
