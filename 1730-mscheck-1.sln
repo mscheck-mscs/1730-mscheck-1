@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck3A1", "mscheck3A1\ms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck3A1UnitTest", "mscheck3A1UnitTest\mscheck3A1UnitTest.csproj", "{22D4F76F-8955-42A5-8250-28312E2BFA2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck3b1", "mscheck3b1\mscheck3b1.csproj", "{747BE761-8FC8-4773-A82D-7805D4340ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscheck3b1UnitTest", "mscheck3b1UnitTest\mscheck3b1UnitTest.csproj", "{444AC150-93F0-48BB-981C-CF41A05BFADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{22D4F76F-8955-42A5-8250-28312E2BFA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22D4F76F-8955-42A5-8250-28312E2BFA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22D4F76F-8955-42A5-8250-28312E2BFA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747BE761-8FC8-4773-A82D-7805D4340ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747BE761-8FC8-4773-A82D-7805D4340ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747BE761-8FC8-4773-A82D-7805D4340ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747BE761-8FC8-4773-A82D-7805D4340ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444AC150-93F0-48BB-981C-CF41A05BFADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444AC150-93F0-48BB-981C-CF41A05BFADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444AC150-93F0-48BB-981C-CF41A05BFADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444AC150-93F0-48BB-981C-CF41A05BFADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
